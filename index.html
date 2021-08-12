@@ -1,12 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello, world!</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="src/style.css" rel="stylesheet" type="text/css" />
+    <title>weather</title>
+  </head>
+  <body>
+      <div class="day">
+          <div class="clearfix">
+            <div style="float: left;">
+                <div style="float: left;">
+                    <div class="card-body">
+                        <div class="card-body">
+                            <div class="card" style="width: 10rem; height: 5rem;">
+    <div class="time" id="current-time">11:35am</div>
+    <div class="date" id="current-date">Sunday<br />July 6, 2021</div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    
+    <div class="container">
+        <h1>
+            <span id="city-name">Buenos Aires, Argentina</span>
+          </h1>
+      <div class="day">
+      <div class="clearfix">
+        <div style="float: right;">
+            <div style="float: right;">
+                <div class="card-body">
+                    <div class="card-body">
+                        <div class="card" style="width: 18rem; height: 3rem;">
+        <form class="barra" id="search-form">
+          <input
+            type="text"
+            id="search-input-city"
+            placeholder="Type a city and country"
+            autocomplete="off"
+          />
+          <input type="submit" value="👆" />
+        </form>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+        <br />
+        <div class="days">
+        <div class="clearfix">
+            <div style="float: right;">
+                <div style="float: right;">
+                    <div class="card-body">
+                        <div class="card-body">
+                            <div class="card" style="width: 8rem; height: 10rem;">
+                        <h5 class="card-title" id="temperature"> ☁ </br> 23°</h5>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="days">
+        <div class="clearfix">
+            <div style="float: right;">
+                <div style="float: right;">
+                    <div class="card-body">
+                        <div class="card-body">
+                            <div class="card" style="width: 28rem; height: 5rem;">
+                
+        
+          <div class="row">
+            <div class="col-2">
+              Sat <br />
+              ☀ <br />
+              15°/9°
+            </div>
+            <div class="col-2">
+              Sun <br />
+              ⛅ <br />
+              12°/5°
+            </div>
+            <div class="col-2">
+              Mon <br />
+              🌧<br />
+              14°/5°
+            </div>
+            <div class="col-2">
+              Tue <br />
+              🌧<br />
+              10°/4°
+            </div>
+            <div class="col-2">
+              Wed <br />
+              🌩<br />
+              9°/2°
+            </div>
+            <div class="col-2">
+                Thu <br />
+                ☀ <br />
+                17°/9°
+              </div>
+          </div>
+      </div>
+    </div>
+</div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
 </html>
